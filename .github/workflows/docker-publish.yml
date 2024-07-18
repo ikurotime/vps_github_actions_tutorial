@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.actor }}/vps_tutorial:latest # Change <image-name> to your image name
+  IMAGE_NAME: ${{ github.actor }}/vps_example:latest # Change <image-name> to your image name
 
 jobs:
   publish:
